@@ -2,8 +2,8 @@ import { Link, NavLink } from "react-router-dom"
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <Link className="navbar-brand" to={'/'}>Static Pages</Link>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+            <Link className="navbar-brand" to={'/home'}>Static Pages</Link>
             <button
                 className="navbar-toggler"
                 type="button"
