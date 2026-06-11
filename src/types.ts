@@ -1,4 +1,5 @@
-export type Content = {
+export interface Content {
     title: string
     content: string
+    id: string
 }

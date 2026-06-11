@@ -5,18 +5,11 @@ import ContentPage from './components/header/ContentPage/ContentPage'
 
 function App() {
 
-
-
   return (
     <div>
       <Header />
       <Routes>
-        {/* <Route path={`/${id}`} element={
-          <ContentPage
-            title={id.title}
-            content={id.content}
-          />}
-        /> */}
+        <Route path={`/:id`} element={<ContentPage />} />
       </Routes>
     </div>
 
